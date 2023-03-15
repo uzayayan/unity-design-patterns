@@ -10,7 +10,7 @@ namespace SPACE.Singleton
         private void Start()
         {
             Debug.Log("Singleton Design Pattern example started.");
-            Debug.Log("Press 'E' for execute Game Manager.");
+            Debug.Log("Press 'E' to execute Game Manager.");
         }
 
         /// <summary>
