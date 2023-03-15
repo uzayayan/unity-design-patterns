@@ -21,7 +21,7 @@ namespace SPACE.Observer
             AddObserver(new Foo());
             AddObserver(new Bar());
 
-            Debug.Log("Press 'N' for notify all observers.");
+            Debug.Log("Press 'N' to notify all observers.");
         }
 
         /// <summary>
