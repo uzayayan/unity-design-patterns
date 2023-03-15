@@ -19,9 +19,9 @@ namespace SPACE.Strategy
 
             _character = new Character();
         
-            Debug.Log("Press 'F' for use ability.");
-            Debug.Log("Press 'M' for change character ability to mage.");
-            Debug.Log("Press 'W' for change character ability to warrior.");
+            Debug.Log("Press 'F' to use ability.");
+            Debug.Log("Press 'M' to change character ability to mage.");
+            Debug.Log("Press 'W' to change character ability to warrior.");
         }
     
         /// <summary>
@@ -62,8 +62,8 @@ namespace SPACE.Strategy
             if (_characterAbility == null)
             {
                 Debug.Log("You should set ability");
-                Debug.Log("Press 'M' for change character ability to mage.");
-                Debug.Log("Press 'W' for change character ability to warrior.");
+                Debug.Log("Press 'M' to change character ability to mage.");
+                Debug.Log("Press 'W' to change character ability to warrior.");
                 return;
             }
         
