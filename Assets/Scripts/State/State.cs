@@ -19,9 +19,9 @@ namespace SPACE.State
 
             _character = new Character();
             
-            Debug.Log("Press 'I' for idle state.");
-            Debug.Log("Press 'W' for move forward state.");
-            Debug.Log("Press 'S' for move backward state.");
+            Debug.Log("Press 'I' to idle state.");
+            Debug.Log("Press 'W' to move forward state.");
+            Debug.Log("Press 'S' to move backward state.");
         }
 
         /// <summary>
