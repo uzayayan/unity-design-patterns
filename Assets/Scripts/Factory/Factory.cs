@@ -21,8 +21,8 @@ namespace SPACE.Factory
             _carCreator = new CarCreator();
             _helicopterCreator = new HelicopterCreator();
 
-            Debug.Log("Press 'D' for create car.");
-            Debug.Log("Press 'F' for create helicopter.");
+            Debug.Log("Press 'D' to create car.");
+            Debug.Log("Press 'F' to create helicopter.");
         }
 
         /// <summary>
